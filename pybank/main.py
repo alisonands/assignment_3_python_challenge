@@ -58,4 +58,5 @@ print(f"The greatest decrease occurred at {min_i} when the value decreased from 
 print(f"This is an decrease of {(min/pnls[min_i+1])*100}%!")
 print (f"This occurred during the month {dates[min_i]}")
 
+
 # %%
