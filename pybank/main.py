@@ -25,7 +25,7 @@ if sum(pnls)>=0:
 else:
     print(f"The net total losses are {sum(pnls)}")
 
-##%
+#%%
 
 #changes in profits/losses
 
