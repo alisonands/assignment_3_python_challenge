@@ -58,5 +58,14 @@ print(f"The greatest decrease occurred at {min_i} when the value decreased from 
 print(f"This is an decrease of {(min/pnls[min_i+1])*100}%!")
 print (f"This occurred during the month {dates[min_i]}")
 
+with open('main.txt', 'w') as file:
+    file.write(f'The average of all these differences is {np.mean(differences)} \n \n')
+    file.write(f"The greatest increase occurred at {max_i} when the value increased from {pnls[max_i-1]} to {pnls[max_i]} \n where the difference was {max}\n")
+    file.write(f"This is an increase of {int((max/pnls[max_i+1])*100)}%! \n")
+    file.write(f"This occurred during the month {dates[max_i]} \n \n")
+
+    file.write(f"The greatest decrease occurred at {min_i} when the value decreased from {pnls[min_i-1]} to {pnls[min_i]} \n where the difference was {min}")
+    file.write(f"This is an decrease of {int((min/pnls[min_i+1])*100)}%! \n")
+    file.write(f"This occurred during the month {dates[min_i]} \n")
 
 # %%
