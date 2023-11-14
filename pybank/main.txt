@@ -1,0 +1,10 @@
+The average of all these differences is -8311.105882352942 
+ 
+The greatest increase occurred at 79 when the value increased from -910775 to 951227 
+ where the difference was 1862002
+This is an increase of 207%! 
+This occurred during the month Aug-16 
+ 
+The greatest decrease occurred at 49 when the value decreased from 878810 to -946748 
+ where the difference was -1825558This is an decrease of -536%! 
+This occurred during the month Feb-14 
